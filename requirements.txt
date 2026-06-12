@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+requests
+Pillow
+torch
+torchvision
+sentence-transformers
