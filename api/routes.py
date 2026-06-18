@@ -65,6 +65,7 @@ def run_matching_engine(data: MatchPayload):
 
         payload_balasan = {
             "id_target": data.id_target,
+            "trigger_type": data.trigger_type,
             "id_kandidat_terbaik": best_candidate_id,
             "tingkat_kemiripan": round(best_score, 2),
             "status_kecocokan": status_kecocokan,

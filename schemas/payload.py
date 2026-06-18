@@ -11,6 +11,7 @@ class KandidatItem(BaseModel):
 
 class MatchPayload(BaseModel):
     id_target: int
+    trigger_type: str
     nama_barang: str
     kategori: str
     deskripsi: str
